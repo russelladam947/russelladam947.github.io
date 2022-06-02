@@ -1,0 +1,89 @@
+*{
+    background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJyaWNrJTIwYW5kJTIwbW9ydGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    font-family: 'Roboto Slab', serif;
+}
+.header{
+    font-size: 50px;
+    text-align: center;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+}
+#mission{
+    position: relative;
+}
+.mission-statement{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+}
+.mission-background{
+    width: 100%;
+    height: 500px;
+    align-items: center;
+}
+#examples{
+    padding: 10% 10%;
+}
+#website{
+    text-align: center;
+}
+#website, p{
+    text-align: center;
+    font-size: 38px;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.portfolio-images{
+    text-align: center;
+    font-size: 40px;
+}
+.pic-1{
+    width: 300px;
+    height: 300px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.pic-2{
+    width: 300px;
+    height:300px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.pic-3{
+    width: 300px;
+    height: 300px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.info{
+    text-align: center;
+    font-size: 35px
+}
+.me{
+    width: 300px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+nav{
+    text-align: center;
+}
+ul, li{
+    display: inline;
+}
+li, a{
+    font-size: 25px;
+    border: solid darkblue;
+    border-radius: 10%;
+    padding: 1px
+}
