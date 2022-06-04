@@ -1,0 +1,101 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;   
+}
+header{
+    border: 1px solid seashell;
+}
+.title{
+    
+    font-family: 'Ms Madi', cursive;
+    font-size: 50px;;
+}
+h1{
+    text-align: right;
+    display: inline;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.tea-jar{
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 700px;
+    width: 1200px;
+}
+h2{
+    font-size: xx-large; 
+    text-align: center;
+}
+.statement{
+    background-color: black;
+    text-align: center;
+
+}
+.menu{
+    text-align: center;
+    position: relative;
+}
+h3{
+    font-size: xx-large;
+    text-align: center;
+}
+.berry{
+    height: 200px;
+    width: 300px;
+    justify-content: space-around;
+}
+.rum{
+    height: 200px;
+    width: 300px;
+    justify-content: space-around;
+}
+.donut{
+    height: 200px;
+    width: 300px;
+    justify-content: space-around;
+}
+.myrtle{
+    height: 200px;
+    width: 300px;
+    justify-content: space-around;
+}
+.bizarre{
+    height: 200px;
+    width: 300px;
+    justify-content: space-around;
+}
+figcaption{
+    padding-top: 10px;
+}
+.location{
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 500px;
+    width: 1200px;
+}
+.locations{
+    text-align: center;
+    position: relative;
+}
+.downtown{
+    text-align: center;
+}
+.bayside{
+    text-align: center;
+}
+.oakdale{
+    text-align: center;
+}
+footer{
+    border: solid 1px seashell;
+}
+h5{
+    text-align: center;
+}
+.copyright{
+    padding-top: 20px;
+    text-align: left;
+}
