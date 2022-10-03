@@ -7,6 +7,11 @@
     background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJyaWNrJTIwYW5kJTIwbW9ydGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     font-family: 'Roboto Slab', serif;
 }
+@media screen and (min-width: 900px) {
+  article {
+    display: flex;
+  }
+}
 .header{
     font-size: 50px;
     text-align: center;
@@ -84,12 +89,18 @@ nav{
 }
 ul, li{
     display: inline;
+    padding: 5px
 }
 li, a{
     font-size: 25px;
     border: solid 1px darkblue;
     border-radius: 10%;
-    padding: 1px
+    
+
+}
+a:hover{
+    background-color: darkblue;
+    color: silver;
 }
 p{
     text-align: center;
